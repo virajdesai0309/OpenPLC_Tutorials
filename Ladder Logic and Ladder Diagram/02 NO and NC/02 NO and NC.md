@@ -23,32 +23,32 @@ Negated contacts and coils are essential in PLC programming as they allow progra
 2. Create a new project and designate its title as `NO and NC.`
 3. Within the project, define a program with the same name and select the LD (Ladder Diagram) option.
     
-    ![Untitled](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled.png)
+    ![Untitled](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/79e17470-e5bb-4b6e-9068-539c08a3247e)
     
 4. Establish variables within the variable window named as `NO_Contact, NC_Contact, Coil_1, and Coil_2,` specifying their data type as boolean.
     
-    ![Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%201.png](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%201.png)
+    ![Untitled 1](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/e999c0c7-d313-4312-825e-64aab64fd1a1)
     
 5. Integrate Power Rails, allocating one for the left and another for the right side, each equipped with two pins.
     
-    ![Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%202.png](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%202.png)
+    ![Untitled 2](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/55db3863-00fc-4da9-ba0e-e7aa362b9275)
     
 6. Begin by incorporating a `NO_Contact` as a standard input.
     
-    ![Untitled](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%203.png)
+    ![Untitled 3](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/bb02e2ab-da16-4693-98b6-7b5132522867)
     
 7. Similarly, include an `NC_Contact` input.
     
-    ![Untitled](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%204.png)
+    ![Untitled 4](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/24d8fd1b-50f8-4f72-b862-1d9e12eafb9a)
     
 8. Insert the coils as depicted below and establish connections between the coils and contacts.
     
-    ![Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%205.png](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%205.png)
+    ![Untitled 5](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/944bfcc2-0814-47b5-bef0-fab54caf06c4)
     
 9. Execute the simulation and navigate to the debugger window. Set both contacts to `force true.`
     
-    ![Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%206.png](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%206.png)
+    ![Untitled 6](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/56177a8c-4b4d-47d8-8544-a279c7eff595)
     
 10. Similarly, set both contacts to `force false.`
     
-    ![Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%207.png](Normally%20Open%20(NO)%20and%20Normally%20Close%20(NC)%20Contact%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%207.png)
+    ![Untitled 7](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/12bd9688-654e-4692-ab64-a16f589526c5)
