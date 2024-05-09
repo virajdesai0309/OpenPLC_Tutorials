@@ -13,7 +13,7 @@ In ladder logic, a common programming language for PLCs, coils and contacts are 
 
 1. Double-click on the `OpenPLC Editor`.
     
-    ![OpenPLC Editor Window](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled.png)
+    ![Untitled](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/6385d697-8782-4a0f-b17d-156100330e45)
     
     OpenPLC Editor Window
     
@@ -27,55 +27,55 @@ In ladder logic, a common programming language for PLCs, coils and contacts are 
 1. Create a new folder named `Coil and Contact`.
 2. Create a new file within this folder, name it `Coil_and_Contact`, set the POU type as `program`, and the language as `LD` (Ladder Diagram).
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%201.png)
-    
+    ![Untitled 1](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/d019f045-8a15-4739-bac4-764056950d4d)
+
 3. Declare a variable named `Toggle_Switch` and set its datatype as `Boolean`. To declare a variable click on the `+` sign in the variable window.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%202.png)
-    
+    ![Untitled 2](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/ecfd20f6-344f-45b2-bca0-c835aa64c37c)
+
 4. Declare another variable named `Coil_1` and set its datatype as `Boolean`.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%203.png)
-    
+   ![Untitled 3](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/34206209-d29c-4cd8-b236-5fcdd52d4d81)
+ 
 5. Add two power rails with `1 Pin` each, one for the left and one for the right. To add Power Pins navigate to the `Canvas` and do a right click and then add `Power Rail` . 
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%204.png)
-    
+    ![Untitled 4](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/360a3edd-61be-47c4-932d-122032c900b8)
+
     > Also make a right and left power rail with as many pins you want just to explore out
     > 
     > 
-    > ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%205.png)
+    > ![Untitled 5](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/3ec91e45-652f-40e0-a38e-fde90ae7a976)
     > 
 6. Right-click on the canvas and add a `Contact` and a `Coil`. Assign the variables `Toggle Switch` and `Coil` to these elements, respectively. 
     
     > Remember to adjust your blocks for aesthetics
     > 
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%206.png)
+    ![Untitled 6](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/b438241f-1f28-457b-8ef2-feb33e1a6542)
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%207.png)
-    
+    ![Untitled 7](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/e5a9bed8-19a9-4324-b148-52b9b8fb9191)
+
 7. Connect the power rails, contact, and coil as shown below.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%208.png)
-    
+    ![Untitled 8](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/07efbcda-1e6a-47ba-a7a1-f21334bc76c0)
+
 8. Click on the 'Run Simulation' button and let the simulation converge.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%209.png)
+   ![Untitled 9](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/b7655f63-c848-4b61-b55c-626ef11f46cb)
     
 9. Click on the `Debug Instance` to open the debugger on the right side of the window.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2010.png)
+    ![Untitled 10](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/bc3215d1-c7f2-4a92-9c0a-d9ea016fda39)
     
 10. Click on the `glasses icon` to display the graph for the `coil and contact`.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2011.png)
+    ![Untitled 11](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/d501a661-5129-4fd3-924e-480031745e55)
     
 11. Now right click on the `Toggle_Switch` and change it to `force true`
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2012.png)
+    ![Untitled 12](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/1d7a44e0-bb18-4a76-952b-d558b1d1448c)
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2013.png)
+    ![Untitled 13](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/7db42ef8-2c08-4a8d-84b4-b4ffe33536b0)
     
 
 # Tutorial Contact (Inputs) and Dual Coil (Outputs)
@@ -84,14 +84,15 @@ In ladder logic, a common programming language for PLCs, coils and contacts are 
 2. Add one more `coil` and name it as `Coil_2`
 3. Arrange them as shown in the image below
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2014.png)
+    ![Untitled 14](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/21aba1e4-9e28-497f-914b-53a721e5d18d)
     
 4. Run the simulation
 5. Click on the `debugger` and check for the instances where the `toggle switch`  is being forced as true or false
 6.  You will notice now `Toggle_Switch` will activate the `dual coils`
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2015.png)
+    ![Untitled 15](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/b84412f1-2893-4c86-aa9f-67b093416144)
+
     
 7. Similarly add some more coils and repeat the experiment.
     
-    ![Untitled](Intro%20to%20Contact%20and%20Coil%206611dd23f2a54a69bfed700856293c2e/Untitled%2016.png)
+    ![Untitled 16](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/6c75c3b1-c02a-4f9d-9dec-84cae737877e)
