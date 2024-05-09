@@ -1,0 +1,10 @@
+# Ladder Logic and Ladder Diagram
+
+**Ladder logic** (also known as **ladder diagram** or **LD**) is a programming language used to program a **PLC** (Programmable Logic Controller). It is a graphical PLC programming language that expresses logic operations with symbolic notation. [The name “ladder logic” comes from its ladder-like appearance, where rungs symbolize individual logic conditions, and coils represent outputs](https://www.plcacademy.com/ladder-logic-tutorial/).
+
+Here are some key points about ladder logic:
+
+1. **Graphical Representation**: Instead of using text-based code, ladder logic combines different graphic elements to create programs. These elements are called **symbols**, and they resemble electrical symbols. [The ladder diagram was originally designed for technicians, electricians, and individuals with an electrical background](https://www.plcacademy.com/ladder-logic-tutorial/).
+2. **Structure**: Ladder logic is based on the electrical ladder diagrams used in relay logic. These diagrams documented how connections between devices were made on relay panels. [The structure of ladder logic resembles a ladder, with two vertical rails and rungs between them](https://www.plcacademy.com/ladder-logic-tutorial/).
+3. **Standardization**: Ladder logic follows a globally recognized standard, specifically the **IEC 61131-3** standard. [This standardization ensures consistency across different PLC programming environments](https://www.plcacademy.com/ladder-logic-tutorial/).
+4. **Bit Logic Operations**: Ladder logic primarily deals with bit logic operations. However, it is also possible to scale a PLC analog input. [Even simple bit logic operations can be beneficial in more advanced PLC programs and SCADA system programming](https://www.plcacademy.com/ladder-logic-tutorial/).
