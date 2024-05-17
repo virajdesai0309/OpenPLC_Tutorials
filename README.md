@@ -1,7 +1,7 @@
 <p align="left">
 <a href="https://github.com/virajdesai0309/OpenPLC_Tutorials"><img src="https://img.shields.io/static/v1?logo=github&label=Originator&message=virajdesai0309&color=ff3300" alt="Last Commit"/></a>
 <a href="https://github.com/virajdesai0309/OpenPLC_Tutorials/stargazers"><img src="https://img.shields.io/github/stars/virajdesai0309/OpenPLC_Tutorials.svg?colorB=1a53ff" alt="Stars Badge"/></a>
-<a href="https://github.com/virajdesai0309/OpenPLC_Tutorials/network/members"><img src="https://img.shields.io/github/forks/virajdesai0309/OpenPLC_Tutorials" alt="Forks Badge"/> </a>
+<a href="https://github.com/virajdesai0309/OpenPLC_Tutorials/network/members"><img src="https://img.shields.io/github/forks/virajdesai0309/OpenPLC_Tutorials" alt="Forks Badge"/></a>
 <img src="https://img.shields.io/github/repo-size/virajdesai0309/OpenPLC_Tutorials.svg?colorB=CC66FF&style=flat" alt="Size"/>
 <img src="https://img.shields.io/github/languages/top/virajdesai0309/OpenPLC_Tutorials.svg?colorB=996600&style=flat" alt="Language"/></a>
 

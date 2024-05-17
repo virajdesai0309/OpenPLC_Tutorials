@@ -22,22 +22,22 @@ Logic gates are typically implemented using electronic components such as transi
 2. Create a new project and designate its title as `Logic_Gates`
 3. Within the project, define a program with the same name and select the LD (Ladder Diagram) option.
     
-    ![Untitled](Logic%20Gates%20NOT%20Gate%20OR%20Gate%20NOR%20Gate%202ee77cdfb34845fbb363f1c3916fffd6/Untitled.png)
-    
+    ![Untitled](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/06c968b1-34d1-4079-92e1-972c30d74c41)
+
 4. Establish variables within the variable window named as `Input_0, Input_1, Input_2, Input_3, Input_4, Output_0, Output_1 and Output_2` specifying their data type as boolean.
     
-    ![Untitled](Logic%20Gates%20NOT%20Gate%20OR%20Gate%20NOR%20Gate%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%201.png)
-    
+    ![Untitled 1](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/72c8913f-21c7-4b5b-bec7-dc0ca7fda4b3)
+
 5. Now start adding contact and coils and assigning variales to them and connect them as shown in the image below
     
-    ![Untitled](Logic%20Gates%20NOT%20Gate%20OR%20Gate%20NOR%20Gate%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%202.png)
-    
+    ![Untitled 2](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/140e7edf-12b9-42ac-b6ea-d1ec14452de9)
+
 6. Once done run the simulation and go in the debugger window and force turn on the Not Gate and check for changes
     
-    ![Untitled](Logic%20Gates%20NOT%20Gate%20OR%20Gate%20NOR%20Gate%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%203.png)
+    ![Untitled 3](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/12db76ce-ec7d-405f-86bd-a0b3349746bc)
     
 7. Similarly do a force true and false on the NOT and OR Gate
     
-    ![Untitled](Logic%20Gates%20NOT%20Gate%20OR%20Gate%20NOR%20Gate%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%204.png)
+    ![Untitled 4](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/f263a7ac-433f-4cf3-a6bc-ba575215cfb8)
     
-    ![Untitled](Logic%20Gates%20NOT%20Gate%20OR%20Gate%20NOR%20Gate%202ee77cdfb34845fbb363f1c3916fffd6/Untitled%205.png)
+    ![Untitled 5](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/ad2b2334-5c8d-470d-8f48-dfc1a5751435)
