@@ -22,18 +22,18 @@ Logic gates are typically implemented using electronic components such as transi
 2. Create a new project and designate its title as `Logic_Gates`
 3. Within the project, define a program with the same name and select the LD (Ladder Diagram) option.
     
-    ![Untitled](Logic%20Gates%20AND%20Gate%20NAND%20Gate%202f88693c65aa4a4f9898688adc2539ec/Untitled.png)
+    ![Untitled](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/a33aaf36-9ce9-4e7c-80b4-e66bd0fe0711)
     
 4. Establish variables within the variable window named as `Input_0, Input_1, Input_2, Input_3, Output_0, and Output_1` specifying their data type as Boolean.
     
-    ![Untitled](Logic%20Gates%20AND%20Gate%20NAND%20Gate%202f88693c65aa4a4f9898688adc2539ec/Untitled%201.png)
+   ![Untitled 1](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/611893f6-7b9d-4eaf-a576-1074bcb15705)
     
 5. Now start adding contact and coils and assigning variables to them and connect them as shown in the image below
     
-    ![Untitled](Logic%20Gates%20AND%20Gate%20NAND%20Gate%202f88693c65aa4a4f9898688adc2539ec/Untitled%202.png)
-    
+    ![Untitled 2](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/680f5ec2-242b-4d52-bb76-f3acc96a9034)
+
 6. Once done run the simulation and go in the debugger window and force turn on/off to check the AND and NAND Gates
     
-    ![Untitled](Logic%20Gates%20AND%20Gate%20NAND%20Gate%202f88693c65aa4a4f9898688adc2539ec/Untitled%203.png)
-    
-    ![Untitled](Logic%20Gates%20AND%20Gate%20NAND%20Gate%202f88693c65aa4a4f9898688adc2539ec/Untitled%204.png)
+    ![Untitled 3](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/444e77bc-9b3d-44e5-a998-1d6f6353d6e9)
+
+    ![Untitled 4](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/cbfb6567-589b-4bba-bdc5-1d173263dcba)
