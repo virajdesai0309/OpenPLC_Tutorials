@@ -22,18 +22,18 @@ Logic gates are typically implemented using electronic components such as transi
 2. Create a new project and designate its title as `XOR_and_XNOR`
 3. Within the project, define a program with the same name and select the LD (Ladder Diagram) option.
     
-    ![Untitled](Logic%20Gates%20XOR%20Gate%20XNOR%20Gate%2084ac3bdd44524815b5109ee4682c7756/Untitled.png)
+    ![Untitled](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/967f92a8-f07f-4b6f-9a50-601a3406a097)
     
 4. Establish variables within the variable window named as `Input_0, Input_1, Input_2, Input_3, Output_0, and Output_1` specifying their data type as Boolean.
     
-    ![Untitled](Logic%20Gates%20XOR%20Gate%20XNOR%20Gate%2084ac3bdd44524815b5109ee4682c7756/Untitled%201.png)
+    ![Untitled 1](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/61ad1003-95fc-4f76-8a7d-c4e2f96adc2a)
     
 5. Now start adding contact and coils and assigning variables to them and connect them as shown in the image below
     
-    ![Untitled](Logic%20Gates%20XOR%20Gate%20XNOR%20Gate%2084ac3bdd44524815b5109ee4682c7756/Untitled%202.png)
+    ![Untitled 2](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/905d906e-f83f-4899-8979-ebaf06208adf)
     
 6. Once done run the simulation and go in the debugger window and force turn on/off to check the XOR and XNOR Gates
     
-    ![Untitled](Logic%20Gates%20XOR%20Gate%20XNOR%20Gate%2084ac3bdd44524815b5109ee4682c7756/Untitled%203.png)
+    ![Untitled 3](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/cc2394cd-cd61-4087-865d-ba738e47b469)
     
-    ![Untitled](Logic%20Gates%20XOR%20Gate%20XNOR%20Gate%2084ac3bdd44524815b5109ee4682c7756/Untitled%204.png)
+    ![Untitled 4](https://github.com/virajdesai0309/OpenPLC_Tutorials/assets/87890409/3cb0a4c9-aad2-4aa4-82b1-b3c27e9f35d4)
