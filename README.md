@@ -52,7 +52,65 @@ The OpenPLC Editor is the software that runs on your computer and, as mentioned,
 
 [OpenPLC](https://autonomylogic.com/)
 
----
+## For Linux Users
+
+### ✅ Resolution: Install the OpenPLC Editor
+
+You can install it using one of the following methods. The first is the most straightforward.
+
+#### 🐧 Method 1: AppImage (Easiest & Recommended)
+1.  Open your web browser and go to the [OpenPLC Editor Download Page](https://autonomylogic.com/download/).
+2.  Look for the **Linux** download option for the latest version (e.g., v4.1.4). You will likely download a file named something like `openplc-editor-4.1.4.AppImage`.
+3.  Once downloaded, open a terminal and navigate to your `Downloads` folder:
+    ```bash
+    cd ~/Downloads
+    ```
+4.  Make the AppImage file executable:
+    ```bash
+    chmod +x openplc-editor-*.AppImage
+    ```
+5.  Run the Editor:
+    ```bash
+    ./openplc-editor-*.AppImage
+    ```
+This package is self-contained and shouldn't have dependency issues. For more build options, you can also check the project's main repository on [GitHub](https://github.com/Autonomy-Logic/openplc-editor).
+
+#### 💻 Method 2: Install from Source (using the terminal)
+If you prefer to build it from source, follow these steps. **Make sure you have Python 3.9 installed first**, as it is a requirement.
+1.  **Install Python 3.9 (if not already installed):**
+    ```bash
+    sudo add-apt-repository ppa:deadsnakes/ppa -y
+    sudo apt update
+    sudo apt install python3.9 python3.9-venv python3.9-dev -y
+    ```
+2.  **Clone the Editor repository** (note this is a different URL from the Runtime):
+    ```bash
+    git clone https://github.com/thiagoralves/OpenPLC_Editor.git
+    ```
+3.  **Navigate into the new directory and run the install script:**
+    ```bash
+    cd OpenPLC_Editor
+    ./install.sh
+    ```
+    The script will automatically handle the installation of dependencies and create a virtual environment for the Editor.
+
+#### 🐍 Method 3: Install via pip (Python Package Manager)
+This method is also quick and easy, as the OpenPLC Editor is available on the Python Package Index (PyPI).
+1.  Open a terminal and run:
+    ```bash
+    pip install openplc-editor
+    ```
+2.  After the installation completes, you can launch the Editor with:
+    ```bash
+    openplc-editor.py
+    ```
+
+### 🚀 Launching the Editor
+
+Once installed via any of the above methods, you should be able to launch the OpenPLC Editor either:
+*   By searching for "OpenPLC Editor" in your Linux Mint application menu.
+*   By running the `openplc_editor.sh` script from the `OpenPLC_Editor` directory if you installed from source (the script that was previously missing in the `OpenPLC_v3` folder).
+*   By executing the `openplc-editor.py` command if installed via `pip`.
 
 ## Frequently asked questions ❔
 
